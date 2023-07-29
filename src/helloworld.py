@@ -1,4 +1,7 @@
-def pr():
-    print("Hello")
+def hello_world(city):
+    print(f"Hello from, {city}")
+
+def main():
+    hello_world("detroit")
     
-pr()
+main()
